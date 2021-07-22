@@ -127,13 +127,23 @@ input{
 @media(max-width:700px){
     .info__container {
         flex-direction: column;
-        padding: 20px;
+        padding: 10px;
     }
     .info{
         text-align: center;
     }
     .twitter {
         margin: 1rem auto 0 auto;
+    }
+    .follow ul{
+        margin-right: 0;
+    }
+    .avatar {
+        margin-right: 0;
+    }
+    .avatar img {
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 .err{
